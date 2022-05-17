@@ -983,3 +983,13 @@ Processing by PagesController#welcome as HTML
 Completed 200 OK in 13ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 5515)
 
 
+Started GET "/" for 127.0.0.1 at 2022-05-17 17:12:40 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 1.4ms | Allocations: 481)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 785)
+Completed 200 OK in 12ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 5514)
+
+
